@@ -137,6 +137,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Adiciona eventos de clique nas imagens do projeto
     var projectLinks = document.querySelectorAll(".link-image");
 
+    var projectOlharLinks = document.querySelectorAll(".olhar-link");
+
     // Array de projetos (exemplo)
     var projetos = [
         {
@@ -158,6 +160,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Adiciona eventos de clique nas imagens do projeto
     projectLinks.forEach((link, index) => {
+        link.onclick = function (event) {
+            event.preventDefault(); // Previne o comportamento padrão do link
+            modal.style.display = "block"; // Exibe o modal
+
+            // Carrega o conteúdo do projeto no modal
+            var projeto = projetos[index]; // Usa o índice do link
+            modal.querySelector("#modal-title").innerText = projeto.nome; // Define o nome do projeto
+            modal.querySelector("#modal-description").innerText = projeto.descricao; // Define a descrição do projeto
+            modal.querySelector("#modal-iframe").src = projeto.url; // Define a URL do projeto
+        }
+    });
+
+    projectOlharLinks.forEach((link, index) => {
         link.onclick = function (event) {
             event.preventDefault(); // Previne o comportamento padrão do link
             modal.style.display = "block"; // Exibe o modal
