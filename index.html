@@ -118,7 +118,7 @@
 
         <div class="linha">
             <div class="col-1-left">
-                <h2 class="titulos-projetos">Nome do Projeto</h2>
+                <h2 class="titulos-projetos">Projeto para confeiteira</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                      Numquam placeat perferendis commodi in quam assumenda,
                      fugit saepe error exercitationem suscipit provident officiis quia nam soluta ullam doloribus, expedita quaerat ea?
@@ -143,7 +143,7 @@
 
             <div class="col-1-right">
                 <a class="link-image" href="#" target="_blank">
-                    <img src="img/projeto-confeitaria.png" alt="projeto xx">
+                    <img src="img/projeto-confeitaria.png" alt="Confeitaria">
                 </a>
             </div>
         </div><!--FIM DA LINHA-->
@@ -280,15 +280,22 @@
         </a>
     </div>
 
-    <div data-scroll="suave" data-anima="scroll">
-
-        <a href="#topo">
-            <div class="topo">
-                <i class="fa-solid fa-arrow-up"></i>
-            </div>
-        </a>
+    <div id="btnTop" class="arrowtop">
+        <i class="fa-solid fa-arrow-up"></i>
     </div>
     
     <script src="js/function.js"></script>
 </body>
+
+<!-- Modal -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-title">Nome do Projeto</h2>
+        <p id="modal-description">Detalhes do projeto vão aqui...</p>
+        <iframe id="modal-iframe" src="" frameborder="0" width="100%" height="90%"></iframe>
+    </div>
+</div>
+
+
 </html>
