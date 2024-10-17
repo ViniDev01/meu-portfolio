@@ -142,14 +142,14 @@ document.addEventListener('DOMContentLoaded', function () {
     // Array de projetos (exemplo)
     var projetos = [
         {
-            nome: "Projeto para E-commerce",
+            nome: "Projeto para Cosméticos e cuidados pessoais",
             descricao: "Descrição do Projeto 1.",
-            url: "https://www.seusite1.com" // URL do projeto
+            url: "https://vinidev01.github.io/projeto-para-cosmeticos-e-cuidados-pessoais/" // URL do projeto
         },
         {
             nome: "Projeto para Pizzaria",
             descricao: "Descrição do Projeto 2.",
-            url: "https://www.seusite2.com" // URL do projeto
+            url: "https://vinidev01.github.io/projeto-para-pizzaria/" // URL do projeto
         },
         {
             nome: "Projeto para Confeitaria",
