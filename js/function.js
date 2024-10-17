@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function () {
         {
             nome: "Projeto 3",
             descricao: "Descrição do Projeto 3.",
-            url: "https://vinidev01.github.io/meu-portfolio/" // URL do projeto
+            url: "https://vinidev01.github.io/projeto-para-confeitaria/" // URL do projeto
         }
     ];
 
